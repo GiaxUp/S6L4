@@ -1,0 +1,31 @@
+@import "buttons";
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  background-color: $color-main;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $color-secondary;
+  border-bottom: 3px solid $color-tertiary;
+  display: flex;
+  justify-content: center;
+  font-family: $font;
+  h1 {
+    color: $color-main;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h2 {
+    color: $color-secondary;
+    font-family: $font;
+  }
+}
